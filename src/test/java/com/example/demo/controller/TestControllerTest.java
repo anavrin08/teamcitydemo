@@ -17,4 +17,9 @@ public class TestControllerTest {
 		assertEquals(25, testController.getSquared(5L));
 	}
 
+	@Test
+	void getSquaredValueFail() {
+		assertEquals(250, testController.getSquared(5L));
+	}
+
 }
